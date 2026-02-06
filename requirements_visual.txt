@@ -1,0 +1,16 @@
+# Tier-1 Visual Enhancement Dependencies
+# Install with: pip install -r requirements_visual.txt
+
+# Real-CUGAN (2× upscaling for anime/manga)
+realcugan-ncnn-vulkan-python>=1.0.0
+
+# RIFE (48 FPS frame interpolation)
+rife-ncnn-vulkan-python>=1.0.0
+
+# Core dependencies
+opencv-python>=4.8.0
+numpy>=1.24.0
+Pillow>=10.0.0
+
+# Optional: GPU acceleration
+# torch>=2.0.0  # If using PyTorch-based models

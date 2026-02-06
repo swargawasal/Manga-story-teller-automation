@@ -1,0 +1,20 @@
+# Audio Generation Dependencies
+# Install with: pip install -r requirements_audio.txt
+
+# Core AI models
+audiocraft>=1.0.0          # MusicGen (BGM + Stingers)
+audioldm2                  # AudioLDM 2 (SFX + Ambience)
+
+# Audio processing
+librosa>=0.10.0            # Audio analysis for auto-curation
+soundfile>=0.12.0          # Audio I/O
+pyloudnorm>=0.1.0          # Loudness normalization
+
+# Optional: Stable Audio (alternative to MusicGen)
+# stable-audio-tools
+
+# Dependencies
+torch>=2.0.0
+torchaudio>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
